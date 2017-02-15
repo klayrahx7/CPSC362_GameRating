@@ -1,0 +1,668 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AffordableSA" xml:space="preserve">
+    <value>Affordable Space Adventures is a stealth puzzle spaceship simulator. Control your craft solo or in a crew of up to three players. The Wii U GamePad™ is your Heads Down Display and gives you precise control over all the internal systems of the ship. Tweak the thrusters, antigravity, stabilizer and many more systems in order to successfully navigate a hostile planet and sneak past alien robots. Explosions, engine shutdowns, blown fuses and implosions may occur.
+In co-op mode, players must coordinate as a crew controlling the spaceship together; one will take the role of engineer, while another will be the pilot. A science officer can join the fun as well.
+Experience the thrilling, spooky and beautiful world crafted and designed in collaboration with Swedish indie game developer Nifflas.
+Two difficulty levels: Technical and Tourist.
+Play with your friends and control the ship together, or take on the challenge alone.
+A game that truly utilizes the potential of the Wii U hardware.</value>
+  </data>
+  <data name="AmiiboTap" xml:space="preserve">
+    <value>Discover definitive moments of classic Nintendo games while exploring the company's catalogue and legacy. Simply tap any amiibo™ figure to the Wii U™ GamePad controller to unlock scenes from NES™ and Super NES™ Wii U Virtual Console™ titles! You never know—the next game you try may become one of your new all-time favorites!
+Grab an amiibo from your collection and tap it to the GamePad to receive a gift! Each gift contains select scenes from a random NES or Super NES game included in this software's selection of titles. Don’t worry about which amiibo to use—every amiibo unlocks bits to play! After un-wrapping your gift, you can dive right into a three minute gameplay scene that introduces you to that game. Then switch to another scene by tapping the same amiibo to the GamePad again. Want more gifts? No problem! You can receive another gift by tapping a different amiibo at any time!
+Discover the joy and legacy of NES and Super NES on the Wii U Virtual Console service
+Dozens of games and scenes to discover
+Each amiibo figure unlocks a random game to sample included in this software's selection of titles
+Each game contains multiple scenes that last for three minutes
+Compatible with all amiibo figures</value>
+  </data>
+  <data name="AnimalCrossingAF" xml:space="preserve">
+    <value>The Animal Crossing: amiibo Festival game is a brand-new way to play with your favorite Animal Crossing characters. Your amiibo figures are front-and-center in this party game, and you’ll get to use them with fun content. Bring to life an expansive and dynamic board game where the board is based on the months of the year like the core Animal Crossing series. The goal? Make your villager the happiest in town and party hard with your friends.
+Features:
+Party with favorite Animal Crossing characters like Isabelle and Tom Nook—who have become amiibo.
+Experience the Animal Crossing universe in light-hearted board games based on the calendar, including the four seasons and seasonal events.
+Bring your amiibo to the party, collect Happy Points, play with your friends, and save your Happy Points to your amiibo to expand your own game even more.
+Use Animal Crossing amiibo cards in fun minigames.</value>
+  </data>
+  <data name="Armillo" xml:space="preserve">
+    <value>Armillo is a unique, fun rolling platforming game with a sci-fi parallel universe theme. It features a massive amount of gameplay elements. For one, there is the regular 3D world, followed by a bonus stage on the moon. Then there is the evil parallel universe, and special 2D speed-run inspired worlds. Lots of unexpected deadly twists, and surprises await! The star of the game features a space armadillo named Armillo. He's not your usual armadillo as he's capable of blasting off to space in order to travel from planet to planet. He's joined by his little blue critter friends and his brother. What's supposed to be a peaceful galaxy becomes ruined by the invasion of the robotic Darkbots. Where are they from? Why are they here? But one thing is for sure, they certainly are not the friendly type.</value>
+  </data>
+  <data name="Bayonetta2" xml:space="preserve">
+    <value>The witching hour strikes again. Brimming with intricate battles that take place in, on and all over epic set pieces, Bayonetta 2 finds our sassy heroine battling angels and demons in unearthly beautiful HD. You're bound to love how it feels to string together combos with unimaginable weapons and to summon demons using Bayonetta's Wicked Weave in this frantic stylized action game. Bayonetta 2 is a Wii U exclusive.
+Features:
+Initiate the new Umbran Climax technique to temporarily summon demons and boost Bayonetta’s attack power and range whenever you fill her magic gauge.
+Fight with new over-the-top weapons that open new possibilities to the way you battle, including the Kafka, a bow that shoots poisonous arrows; the Rakshasa, a pair of beautiful katana blades; and a giant rifle-inspired scythe known as the Chernobog.
+Team up with a friend in Tag Climax, a two-player online co-op mode. Enjoy a little friendly competition by trying to deal the most damage as you work together to take down angels and demons.
+In online quick matches, you can wager halos, the in-game currency that you earn by defeating enemies. You receive a large sum back if you can prove you’re a better fighter than your partner. Halos can then be traded in a story mode shop to unlock new techniques, buy accessories and pick up alternate weapon variations.
+Every chapter ends with a medal ranking: Stone, Bronze, Silver, Gold, Platinum or Pure Platinum. The more skilled you are, the higher your ranking.
+This game is approachable for players of all levels, with settings of three difficulty levels. Through Touch Play, you can play with the GamePad stylus and touch screen, regardless of which difficulty you choose.</value>
+  </data>
+  <data name="BlockyBot" xml:space="preserve">
+    <value>Jump your way through a wacky world of Robots, Wizards, Ninjas and the first ever playable box of robotic French Fries! Blocky Bot is a brand new super action mini platformer for Wii U™, from the same team that brought you Paper Monsters Recut. Test your platforming skills and reflexes by collecting Bits and Bytes to unlock new characters and themes and push yourself for the best score and blocky bragging rights!
+--FEATURES--
+Endless 3D platformer gameplay combined with awesome robot style.
+Tons of original characters to unlock and play, and a few surprise appearances!
+Awesome original soundtrack, filled epic with new blocky jams.
+Super sweet themes to unlock and explore!
+Endless hours of replay and high score fun.
+Tight responsive controls.
+Wii U™ GamePad support, including Off-TV Play!
+Fun for gamers of any age.</value>
+  </data>
+  <data name="CaptainToadTT" xml:space="preserve">
+    <value>The intrepid Captain Toad sets off on his own adventure for the very first time through a wide variety of tricky, enemy-infested, maze-like stages to find hidden gems and nab elusive gold stars.
+FEATURES:
+Equipped with nothing more than a neck scarf, backpack and oversized head lamp, Captain Toad finds hidden gems, coins and power-ups on his way to the gold star at the end of each tricky, trap-filled stage.
+Captain Toad isn't particularly fast or strong. He can't jump and he has no super powers. But he knows that sometimes, it's all about wits and perspective.
+Twist the camera to reveal hidden locations and other secrets. The Wii U GamePad offers a closer view of the dangers and hidden items in each maze, and its gyro controls can also be used to peer around.
+Captain Toad's world is brimming with life, with dangerous enemies, tricky platforms, nasty traps and secrets to uncover. Each stage is its own puzzle to solve, and littered throughout are hidden items in hard-to-reach places. Can you help our tiny adventurer survive to find them all?</value>
+  </data>
+  <data name="CubeLife" xml:space="preserve">
+    <value>Cube Life: Island Survival is the first block building open-world survival game for the Nintendo Wii U.
+In Creative Mode, the game will allow players to build constructions in 3D generated game worlds.
+In Survival Mode, the player must maintain health, explore caves, gather resources, and craft tools on an unknown island. Get food, explore and build during the day. Hide, fight, and surive as night falls on the island.
+Key Feature v1.1:
+Block building open-world survival game
+Creative Mode
+Survival Mode
+Local Multiplayer (deathmatch, tower defence, co-op)
+Create and play custom maps for Deathmatch
+Large maps (2880x2800 blocks)
+Inventory management via Gamepad
+Wii Classic Controller Pro support
+Wii U Pro Controller support
+Crafting
+350+ items and tools
+Day/Night cycles
+Weather change
+Pets
+Realistic graphical effects like water reflections
+1st person / 3rd person / Selfie view
+Updates - the game will keep getting better and better!</value>
+  </data>
+  <data name="DKCountryTF" xml:space="preserve">
+    <value>Help Donkey Kong and his friends save their home and banana hoard from marauding Vikings in theDonkey Kong Country™: Tropical Freeze game from Retro Studios. All the challenging ground-pounding, barrel-blasting, side-scrolling mine cart action from the Donkey Kong Country series is back along with a bushel of new game play elements and features.
+Features:
+Dixie Kong is back to join the adventure as a playable character alongside Diddy Kong. Either can buddy up with Donkey Kong, and each character offers a different game play experience.
+Explore new dynamic levels that twist, turn, and transform in new ways. Enjoy spectacular views from the dynamic rotating camera.
+On their journey to reclaim Donkey Kong Island, Donkey Kong and his friends travel across five islands with a variety of stages that include underwater areas and frozen environments.
+Enhance Donkey Kong's exploration and unlock secrets with a variety of new moves, including a "plucking" system to pull items right out of the ground.
+Team up with friends in a cooperative multiplayer mode that lets two players share in the fun together. (Additional accessories required for multiplayer mode and sold separately.)</value>
+  </data>
+  <data name="DrLuigi" xml:space="preserve">
+    <value>Zap viruses in a falling block puzzle game featuring Dr. Luigi™!
+There’s a new doctor in the house! Dr. Mar—or, uh, Dr. Luigi is a new twist on this classic virus-popping puzzle game! Use new L-shaped pills in a brand new game mode and compete with players locally or online.*
+Drop pills the usual way, or get a second opinion with the Wii U GamePad controller. Virus Buster mode lets you position falling pill segments with the touchscreen and stylus to place them wherever you want. Use L-shaped pills carefully in the new Operation L mode or, for you die-hard Dr. Mario fans, there’s always Retro Remedy mode. Feeling better? Then sweat it out online* and see where you rank among the world’s elite Operation L and Retro Remedy mode players. Both modes feature online leaderboards.* It’s just what the doctor ordered…even if it’s a little late!
+Celebrate the Year of Luigi with Dr. Luigi™
+New L-shaped pills make you rethink your strategy in Operation L mode
+Use the Wii U GamePad controller’s touchscreen in Virus Buster mode
+Relive or try out the classic-pill dropping gameplay of Retro Remedy mode
+Compete against other players locally or online*
+Both the Operation L and Retro Remedy modes feature online leaderboards*</value>
+  </data>
+  <data name="FamilyParty" xml:space="preserve">
+    <value>Exclusively for the Wii U™ system from Nintendo, Obstacle Arcade lets players participate in over 30 party games specifically designed for multiplayer. Delivering an unmatched combination of variety and value, it features dozens of hysterical obstacle courses, popular sporting events, and arcade and brain challenges.
+Family Party: 30 Great Games Obstacle Arcade takes players to “Family Party Land”, a magical island loaded with a combination of familiar games and over-the-top challenges. Dodge barrels, ride horses, skydive, shoot rockets, kick goals, and more. Rule the island by earning medals and high scores, and unlocking new games.
+Features
+• Over 30 fun party games that highlight the all-new Wii U™ system! 
+–Use the all-new Wii U™ GamePad in special 1-on-3 multiplayer challenges
+–Aim and shoot with the Wii U™ GamePad to kick soccer balls or to act as a game master in hidden card games and obstacle course challenges.
+–Tilt the Wii U™ GamePad to roll giant balls, to fly through space in zero gravity, or to block projectiles as a shield
+–Track high scores and game progress on the Wii U™ GamePad’s display
+• Loaded with fun games custom made for family play, including tons of extreme obstacle courses, sports, and arcade game challenges 
+–Over the top obstacles: Giant bouncing balls, alligator jumping, crazy hurdles, jetpacks vs. rocket launchers, and other thrills!
+–Sports: Everything from air hockey to eating contests to rodeo
+–Fun for the whole family: Arcade games, card games, and more
+• An unmatched combination of variety and value! 
+–All games designed for 4-player multiplayer and all-ages family competition –Win trophies and achieve high scores to unlock new games and characters
+–Less than $1 a game for over 30 fun party games that showcase the all-new Wii U™ system.</value>
+  </data>
+  <data name="FastRacingNeo" xml:space="preserve">
+    <value>Race through a futuristic sci-fi world at incredible speeds in FAST Racing NEO.
+Jump into the driver's seat of your anti-gravity vehicle and put your skills to the test in high octane competitions. Play locally with four of your friends in splitscreen or online against 8 players from all around the world.
+Race through abandoned mines in the depths of the earth, to dense jungle areas, futuristic cities, crossing vast deserts and finally up into the stratosphere and beyond. Become a legend and master all courses on even the highest speed!
+Features:
+Race anti-gravity vehicles in this lightning-fast arcade racer
+Zoom through 16 tracks set in canyons, alpine peaks, oceans, futuristic cities and more
+Master the art of boosting and phase switching to stay ahead of the competition
+Local and online multiplayer
+Unlock the HERO MODE to play with new rules and new challenges!</value>
+  </data>
+  <data name="FatalFrameMoBW" xml:space="preserve">
+    <value>Fatal Frame: Maiden of Black Water is comprised of three interconnected stories that converge to uncover the truth behind a recent string of tragic deaths in a forest marred by a history of suicides. As one of three people with the power of the Camera Obscura and the ability to see the shadows of those spirited away, you’ll explore the ruins of an eerie inn, a shrine filled with life-size dolls, and a lake full of dead priestesses. Each shadowy location is connected by a stream of water flowing throughout the mountain, and this once holy water is tied to the darkest mystery of all—the history of death and darkness on Mt. Hikami.
+This game is free to start. You can download the trial version and play most of the first two chapters for free. To continue playing, purchase the full game upgrade on Nintendo eShop.
+Features:
+Survive this horrifying new entry in the Fatal Frame series
+Explore sinister locales like an underground cave for human sacrifices and a shrine for life-sized dolls
+Use the Wii U GamePad controller as your Camera Obscura—your only defense against fatal ghosts
+Mt. Hikami is coursing with inexplicably dangerous water; stay dry or die
+Investigate and stay alive on the deadly Mt. Hikami</value>
+  </data>
+  <data name="GamePartyChampions" xml:space="preserve">
+    <value>Game Party Champions is the fifth and latest installment of the widely successful Game Party franchise and available exclusively for Wii U. The game’s fun, pick-up and play style will appeal to experienced and new gamers alike. Using the system’s innovative new GamePad, players tilt, turn and touch the controller to play arcade, sports and party games in entirely new ways.
+Eight Classic Games: Players can enjoy arcade, sports and party games such as Ping Pong and Skill Ball, and modern favorites such as Table Hockey and Hoop Shoot.
+Newest Technology: Using Wii U’s GamePad, players tilt, turn, and touch the innovative controller to add even more interactive fun to the dynamic game play.
+Multiple Game Modes: Players utilize three different game play modes!
+o Quick Play: Pick up any game and start playing with this instant action mode.
+o Story Mode: Outplay AI opponents and advance through the game to reach the ultimate showdown in World Championship Stadium.
+o Party Mode: Liven up the living room by taking turns with the GamePad, while others use Wii Remotes to wreak havoc on their game.
+Rich HD Graphics: The game features eye-popping High Definition graphics, a first on a Nintendo platform.</value>
+  </data>
+  <data name="GameWario" xml:space="preserve">
+    <value>Wario™ and his crazed team of developers are bringing you creative new ways to play with your Wii U™ GamePad controller! In Game &amp; Wario™, you'll shield yourself from suction-cup arrows, avoid detection as a sneaky thief, and share in the WarioWare™ fun with your friends and family in an experience you won't find anywhere else!
+Discover an astounding variety of unusual games that stretch the boundaries of your gaming imagination as you use the GamePad as a dance floor for a competitive dance-off, or fire arrows at invading armies of robots and aliens.
+Wield the Wii U GamePad in wild new ways, from skiing down the slopes in a slalom race to snapping photos of suspected felons hidden in high-rises on busy city streets.
+Earn medals, collect prizes, and unlock frantic new games to unleash the full power of your GamePad in Wario &amp; friends' most masterful masterpiece yet—and you'll only find it on Wii U!</value>
+  </data>
+  <data name="JustDanceDP2" xml:space="preserve">
+    <value>Just Dance and Disney are back together, bringing the greatest dance game for the whole family with music from the hottest Disney Channel shows, in Just Dance®: Disney Party 2.
+Dance like the stars from the most popular Disney Channel shows and movies. With a great selection of family favorite songs, fun dances, and kid-friendly gameplay, children of all ages can dance along with family and friends.
+Just Dance 2016
+Release October 20, 2015
+Introducing Just Dance 2016® - the newest game from the top-selling franchise - with a brand new way to play! All you need is your smartphone and the Just Dance Controller App to play Just Dance 2016 on Wii U, no Wii remotes needed.
+Bust a move to "Uptown Funk" by Mark Ronson Ft. Bruno Mars and feel the beat in "All About That Bass" by Meghan Trainor - Just Dance 2016 features an amazing tracklist with visuals that are more creative and breath-taking than ever before. Join over 100M players and dance to your favorite songs!</value>
+  </data>
+  <data name="KirbyRC" xml:space="preserve">
+    <value>Do you have the magic touch? Then guide Kirby as he sets off on grand adventures in a hand-sculpted clay world. Draw lines on the touch screen of the Wii U GamePad controller to create rainbow-colored clay ropes to move Kirby around freely, or tap him to attack enemies or blast through obstacles. Transformations include a submarine, rocket and tank. In underwater levels, Kirby dons a swim mask. If his power level gets too low, a clay bandage appears on his head.
+FEATURES:
+Kirby comes to life in a world of clay, which creates a beautiful backdrop for Kirby's adventure.
+You take control of Kirby with the stroke of a stylus and draw on the GamePad touch screen to guide Kirby through the world.
+Use the GamePad to control Kirby's many transformations in unique new ways.
+The intuitive drawing mechanic is a spiritual successor to Kirby: Canvas Curse for Nintendo DS that builds on the game play and takes it in a new direction.</value>
+  </data>
+  <data name="LegoCity" xml:space="preserve">
+    <value>For the first time, the fan-favorite LEGO City vehicles and play sets come to life in LEGO® City Undercover, exclusively for the new Wii U console. Players assume the identity of Chase McCain, an undercover detective armed with clever disguises. The mission is to put a stop to the fiendish Rex Fury and end his crime wave in LEGO City. As players run, drive and even fly through the city, they’ll use the Wii U GamePad controller as a new police gadget.
+The Wii U GamePad is woven seamlessly into the game-play experience. Players use it to scan for hidden clues and criminals, receive mission updates and place waypoints on an overhead city map that displays their position in real time.
+Experience LEGO City like never before. Players will encounter familiar play sets come to life as they explore the vast city, looking for clues to bring RexFury to justice.
+Players can go undercover with a variety of disguises, including a firefighter,a construction worker and even a robber, and use their unique abilities tosolve puzzles and access new areas of the city.
+There are more than 100 vehicles for players to collect and use to explore the city, including sports cars, motorcycles and even aircraft.
+LEGO video games are known for their humor and parody, and LEGO City Undercover delivers this and more with fully voiced characters and ambient crowds, bringing LEGO City to life.</value>
+  </data>
+  <data name="LoZ2016" xml:space="preserve">
+    <value>Game Information not yet available.</value>
+  </data>
+  <data name="LoZTheWindWaker" xml:space="preserve">
+    <value>The Legend of Zelda: The Wind Waker makes its glorious return on the Wii U console with gorgeous HD graphics and enhanced game features. In this timeless classic with a unique and colorful "toon-shaded" art style, players guide Link as he sets out on the massive Great Sea to find his kidnapped sister. You will sail the seas in search of lost islands, fight fearsome enemies, take on mighty bosses, and seek out the legendary Triforce.
+New Features:
+The Legend of Zelda: The Wind Waker HD features 1080p visuals that will immerse players in the game like never before.
+With the Wii U GamePad controller, it’s easy to manage your inventory and view maps.
+Players will enjoy cruising the open sea with a new Swift Sail, bringing them to their next destination and action-packed adventure that much faster.
+Once players receive the "Tingle Bottle" item, they can connect with others by posting comments to Miiverse. Through this new feature, comments or screen shots posted on Miiverse will wash up on the shores of other players’ games. It’s like finding a message in a bottle.
+Players can also take and store more pictures with an improved Pictograph and then post them on Miiverse.
+If the television is already in use, this game can been played off-TV on the Wii U GamePad.</value>
+  </data>
+  <data name="LoZTwilightPrincess" xml:space="preserve">
+    <value>A dark force, shrouded in twilight, has invaded the vast land of Hyrule. To restore light to the world, team up with the mysterious creature Midna and embrace the darkness to transform into a divine wolf. Fight through labyrinthine dungeons, survive puzzling traps and meet a cast of characters you’ll never forget in this legendary Zelda™ adventure.
+The Legend of Zelda™: Twilight Princess is a critically acclaimed masterpiece, set in a massive world bursting with life—but also shadow. A dark figure from the Twilight Realm has invaded the world of light. As Link™, a farmhand turned cursed beast, join forces with the impish Midna and trusted (albeit unusual) allies to survive a quest that'll take you to the farthest corners of Hyrule and beyond… to the Twilight Realm. This emotional adventure is now on the Wii U™ console with improved visuals and controls—and new challenges. Choose Hero Mode to take 2x normal damage, or tap the Wolf Link amiibo™ figure to unlock the tough Cave of Shadows.
+The Legend of Zelda: Twilight Princess HD is the best way to experience this critically acclaimed game
+Explore a vast Hyrule, a mysterious Twilight Realm, and masterfully-designed dungeons
+Restore balance to the world with the aid of the impish Midna and your divine wolf powers
+Meet a cast of friendly folk and interesting characters, like the entrepreneurial baby Malo and even a yeti couple
+Enhanced visuals, additional controls, bonus challenges, and Miiverse™ functionality make the game feel fresh again
+Play in Hero Mode to take 2x the normal amount of damage—and do it without any heart drops to refill your health!</value>
+  </data>
+  <data name="MarioKart8" xml:space="preserve">
+    <value>Race upside-down and along walls on anti-gravity tracks in the most action-fueled Mario Kart™ game yet! Take on racers across the globe and share videos of your greatest moments via Mario Kart TV.*
+Driving up a waterfall or across the ceiling can provide an intense adrenaline rush, but that’s not all anti-gravity is good for. It also provides a wild new gameplay mechanic: if you collide into other racers in zero-g, you’ll earn speed boosts worth bragging about. Luckily, you can upload and share your best moments and watch your friends’ using the all-new Mario Kart TV.* Returning features include 12-player online play*, gliders, underwater racing, motorbikes, and custom karts. You can even race as Bowser’s seven minions, the Koopalings!
+Race along walls and upside-down on twisting anti-gravity racetracks!
+Share highlight videos of your greatest moments with friends via the Mario Kart TV feature and Miiverse™*
+Race and battle with friends locally* or connect online to play with random players from around the world*
+Fan favorite features from past Mario Kart™ games include gliders, underwater racing, motorbikes, mid-air tricks, and more
+For the first time ever, play as all seven of Bowser’s minions, the Koopalings!
+Crisp HD graphics and fluid animation offers players the most visually stunning Mario Kart™ yet</value>
+  </data>
+  <data name="MarioParty10" xml:space="preserve">
+    <value>Bowser crashes the latest Mario Party, the first installment of the series on the Wii U console. In the new Bowser Party mini-games, play as Bowser himself and face off against up to four others playing as Mario and friends. Control Bowser using the buttons, motion controls and touch screen of the Wii U GamePad controller in different ways, and wreak havoc as Bowser in each mini-game while the other players strive to survive.
+FEATURES:
+Grab the GamePad and play as Bowser for the first time in the series. In Bowser Party mini-games, one player gets to be the fire-breathing Bowser as he tries to burn, bonk or blast other players away. Up to four players use Wii Remote controllers to cooperate and survive as they confront the Bowser player, who is using the Wii U GamePad. It's four against one, and being a party pooper has never been so much fun!
+Control Bowser in a variety of ways with the Wii U GamePad. In Bowser's Bad Breath, for example, the Bowser player moves the GamePad around to aim and shoot fireballs at the other players while they attempt to dodge them.
+Colors and textures pop off the screen as the Mario Party series leaps into high definition for the first time.
+Enjoy new mini-games in classic Mario Party style with up to four players.*</value>
+  </data>
+  <data name="MarioSonic2016OG" xml:space="preserve">
+    <value>Compete with Mario™, Sonic and all your favorite characters in Rio de Janeiro, host of the Olympic Games in 2016. Gear up for the competition, and see if you’ve got what it takes to compete with the best in events like Soccer, Rugby and Beach Volleyball.
+Features:
+Compete in fun and exciting Olympic events set throughout host city Rio de Janeiro.
+Join Mario, Sonic and your favorite characters to take on challenging events like Soccer, Beach Volleyball, and Rugby.
+2016 marks the first Olympic Games appearance for Rugby since 1924, and the event is exclusive to the Wii U™ version of Mario &amp; Sonic at the Rio 2016 Olympic Games.</value>
+  </data>
+  <data name="MarioTennisUSmash" xml:space="preserve">
+    <value>Compete with friends in the multiplayer Mario Tennis: Ultra Smash game on the Wii U system. Along with the fun and dynamic gameplay known to the franchise, surprise your opponents with a new move to the series, the Jumpshot, which sends the ball flying down the court. Change the sport up with new Mega Battles, using the Mega Mushroom to gain an advantage over the competition. Claim your spot in Mario Tennis lore in singles (1v1) or doubles (2v2) as you play with and against family, friends or the CPU using returning and new characters to the series.
+Features:
+Compete with friends in the multiplayer Mario Tennis: Ultra Smash game on the Wii U system.
+Play against friends and family in multiplayer matches.
+Play against friends and family in both singles (1v1) and doubles (2v2) matches as your favorite Mushroom Kingdom character.
+Control your character’s every movement on the court, using precise timing and the correct shot to outwit your opponent.
+Use the new Jumpshot technique to return shots like never before.
+In Mega Battles, get the Mega Mushroom to gain a “big” advantage over your competition.
+New characters make their Mario Tennis debut.</value>
+  </data>
+  <data name="NewSuperLuigi" xml:space="preserve">
+    <value>With Mario nowhere to be found, it’s up to Luigi to save the day in a brand-new downloadable adventure that takes place in the world of New Super Mario Bros. U. Experience new gameplay challenges as you guide Luigi, complete with his high jump and unique slide, through all-new courses. Enjoy high replayability and satisfaction from mastering each course, and then share your triumphs via the Miiverse feature. Up to five players* can jump into the fun, with Nabbit taking the place of Mario as a playable character. Help Luigi finally prove he has what it takes!
+Take control of Luigi™ in his first starring role in a platform adventure
+Level-up your New Super Mario Bros.™ U experience with more than 80 new courses
+High replayability and satisfaction from mastering each course
+Play with distinct Luigi™ physics, including his unique slide and gratifying higher and longer jumps
+No time to waste as each course begins with only 100 seconds
+For the first time, play as Nabbit, invincible to enemies and obstacles</value>
+  </data>
+  <data name="NewSuperMarioBros" xml:space="preserve">
+    <value>New Super Mario Bros. U is a new, side-scrolling adventure featuring Mario, Luigi, Toad … and your Mii character. Now’s your chance to step inside the Mushroom Kingdom and explore new worlds, new power-ups and new ways to play. Up to five players* can jump into the fun, with up to four people using Wii Remote controllers and one on the Wii U GamePad. The experience is different, depending on which controller is used.</value>
+  </data>
+  <data name="NintendoLand" xml:space="preserve">
+    <value>Nintendo Land is a fun and lively virtual theme park filled with attractions based on popular Nintendo game worlds. Each attraction features unique and innovative game-play experiences made possible by the Wii U GamePad controller. Depending on the attraction, players can play solo, compete against other players, or even team up to play cooperatively. Up to five players can participate in dynamic multiplayer modes in select attractions.* The experiences change depending on whether players are using the GamePad, a Wii Remote controller or just watching others play on the TV screen.
+Nintendo Land features fun-filled theme park attractions based on Nintendo’s greatest game worlds, including Mario Chase, The Legend of Zelda: Battle Quest, Pikmin Adventure and more. There are 12 attractions in all.</value>
+  </data>
+  <data name="Pikmin3" xml:space="preserve">
+    <value>In the Pikmin 3 game, players take command of three explorers and a legion of adorable Pikmin in a fight for survival. By employing the unique abilities of these tiny Pikmin creatures, players will solve puzzles, battle dangerous predators and recover food needed to save the explorers' depleted home planet.
+Want more Pikmin? Download Pikmin™ Short Movies, directed by Shigeru Miyamoto, exclusively on Nintendo eShop.
+FEATURES:
+Discover the charming personalities of the plant-like Pikmin creatures as they come to life in multiple shapes and sizes. Five different Pikmin types, including new Rock Pikmin and Winged Pikmin, each offer unique abilities. Rock Pikmin are sturdy creatures who can be tossed at solid objects to break them down. Winged Pikmin have the ability to fly and can carry objects in the air.
+Divide and conquer! Split your Pikmin squads among the three explorers to maximize your strategy.
+Use the Wii U GamePad controller as an in-game camera to capture the alien-safari environment from a pint-sized perspective. Snap and caption photos, then share them via Miiverse.
+Show off your skills in a variety of modes or challenge a friend in the wild and frenetic multiplayer battle mode.
+The intuitive controls of the Wii Remote and Nunchuk controllers make it easy to lead your explorers and pinpoint the location where you want to throw Pikmin.</value>
+  </data>
+  <data name="PokemonRumble" xml:space="preserve">
+    <value>Each morning, Capsules filled with Toy Pokémon are delivered to the Toy Shop. One day, some capsules filled with Toy Pokémon accidentally drops into the river—a river that sets them adrift to a far-off place. Intent on getting back to the Toy Shop, the Toy Pokémon start walking. Suddenly, a Toy Pokémon appears in front of them and challenges them to a battle! Why are the Toy Pokémon fighting each other? Will they make it back to the Toy Shop?
+Features:
+Battle and collect all 649 Pokémon in this over-the-top rumble!
+As a Toy Pokémon, you’ll take on huge waves of other Toy Pokémon through more than 70 battles that introduce new challenges and obstacles.
+Before each level, you can select to play as any of the Toy Pokémon you have collected.
+As the game progresses, more powerful Toy Pokémon can be collected through battles, which you can then play with.
+Using the Wii U GamePad and Wii Remote controllers, you can play with up to 3 friends and collect even more Toy Pokémon together.</value>
+  </data>
+  <data name="PushmoWorld" xml:space="preserve">
+    <value>Experience the fist-pumping joy of push-pull puzzle solving in the latest entry of the critically acclaimed Pushmo™ series! Block-based puzzles, charming characters, and a built-in community make the Pushmo World game endless fun for puzzle solvers of all ages.
+When a kindly old inventor creates a wondrous park filled with puzzling playgrounds called Pushmo, a little trickster traps Mallo’s friends inside! Now it's up to our hero, Mallo, to push, pull, and climb his way through 250 mind-bending Pushmo playgrounds to save his friends. But the fun doesn’t stop there! World Pushmo Fair, a robust built-in community feature, makes it easier than ever to create, share, and play a near-limitless amount of custom puzzles created by players around the world!
+Guide Mallo through his first brain-teasing adventure on the Wii U™ console
+Take on 250 fun puzzles, including colorful mural stages
+Visit Pushmo World Fair to play and rate custom Pushmo puzzles from around the world*
+Create custom puzzles in Pushmo Studio with a robust selection of tools
+Share your puzzles seamlessly via the World Pushmo Fair feature or QR Code® patterns*
+Earn Stamps for your Miiverse™ posts*
+Puzzles shaped like real-world objects, animals, and Nintendo characters will impress your eyes and challenge your brain
+Unlock special Mysterious Pushmo with new twists on gameplay, such as yin-yang blocks and timed blocks</value>
+  </data>
+  <data name="RabbidsLand" xml:space="preserve">
+    <value>For some reason unknown to us, Rabbids decide to take over our beloved amusement park.
+We do not know their plan; we do not know their intentions. But one thing we are sure of: they are going to make the most of their day out by invading all the attractions!
+They don’t intend to queue like everyone else or stay seated during the whole journey!
+As Rabbids will always be Rabbids, you’ll see them misusing the rides, going bwaaah at a souvenir shop before stopping in an overpriced themed restaurant.
+So whether it’s a sunny or rainy day, just grab your Wii U GamePad and roll the dice to join them!
+Discover how the Rabbids take over the attractions
+Rabbids will have a lot on their plate: princess castle, the pirate boat, haunted house, tunnel of love, roller coaster…there are over 20 + attractions waiting to be invaded!
+A unique board game with unexpected events
+The board game is the center of Rabbids Land and all the action revolves around it. It’s an arena where you’ll be able to play up to 4 players, turn by turn in sessions of 30 to 60 minute. The board game has many to offer: special events that will change all the rules of the game, plus unique items to beat up your friends and steal their trophies. You’ll even get to ask stupid questions, and catapulted to the attractions!
+Use the Wii U GamePad in delirious ways
+Whether you aim with it, use it to plan your next move, tilt it, shout at it, watch it, steer it, share it, touch it, draw on it, … Rabbids Land is going to make you see your new console in a brand new light through its wacky interactions
+There is always two sides to a story
+The WiiU GamePad shows its core value through the asymmetrical gameplay it offers. Letting you play coop and versus mode in the attractions. Not only the experience of the game will be lived differently from a player to another, but the replay value is considerably high.
+Fun on &amp; off screen
+Some attractions will challenge you and your friends to shout at each other, make one and another dance and push you to interact not only with the controller, but also between your buddies.
+Use the Wii U without TV
+Someone else is camping in front the TV? No problem, with the WiiU tablet you’ll be able to play the full game on your own.</value>
+  </data>
+  <data name="Runbow" xml:space="preserve">
+    <value>Runbow is a fast-paced action party game for up to 9 players! The world changes with each swipe of the background colour and if you can't see something it doesn't exist! Players can go head-to-head in Run, Arena, King of the Hill, and ColourMaster, or hone their skills on their own in Adventure or The Bowhemoth.
+Local and Online Nine-player Multiplayer – The biggest couch-multiplayer experience to come to Wii U™, ever!
+Six Great Game Modes – Challenge friends in King of the Hill, Arena, Run, or ColourMaster, or dominate Runbow’s colorful world on your own or co-operatively in Adventure and Bowhemoth.
+One Master to Rule Them All – Play against friends in ColourMaster mode, where challengers race against one malevolent ColourMaster who controls the colors and obstacles in the level with the Wii U™ GamePad.</value>
+  </data>
+  <data name="SingParty" xml:space="preserve">
+    <value>Get the party started with SiNG Party, a new, interactive musical performance game that will get you and your guests singing and dancing well into the night. With dozens of popular songs to choose from, everyone from novice singers to experienced entertainers will be able to join in the fun. While one person steps up as the main performer, others can dance, sing and clap along with the prompts on the TV screen, making sure everyone at the party is rocking out together.
+In “Party” mode, the lead singer uses the Wii U GamePad controller to view lyrics and receive cues, freeing them from the TV and allowing them to interact with the audience, making each performance more engaging and enjoyable.
+There’s no limit to the number of people who can join in at one time. Audience participation, such as singing, dancing, interacting with the lead singer and playing instrumental sounds with the Wii Remote controllers, is the key to a great performance.
+In “Sing” mode, up to two singers’ vocal and overall performance quality are evaluated on the TV in real time.
+The GamePad can be used as an audio mixer and to create a playlist.
+A variety of song selections, from the ‘60s to current pop hits, makes it easy for players from any generation to put on a show.</value>
+  </data>
+  <data name="SMTxFireEmblem" xml:space="preserve">
+    <value>A tale of youth and heroes guided by destiny
+Set in modern Tokyo, young people come together to weave an epic tale alongside heroes from an alternate world. This brand new RPG, developed by ATLUS, is infused with elements of the popular Fire Emblem series. In the struggle between the worlds of glamour and darkness, these young heroes rise to face the challenge.
+Features:
+Collaboration that blends the Shin Megami Tensei series with Fire Emblemcharacters.
+"Mirages"—beings of immeasurable power hailing from another dimension—have begun invading our world. Some are evil, but others are drawn to humans with tremendous creative potential and have shared their powers to guard humanity.
+Main characters fight as Mirage Masters and, at the same time, have big dreams to become great entertainers. They polish their singing and acting skills in the entertainment business in their daily life, and work as artists.
+Young heroes must confront not only the invading Mirages but also the world of entertainment as they fight their way to stardom.</value>
+  </data>
+  <data name="SonicBoomRoL" xml:space="preserve">
+    <value>In Sonic Boom™: Rise of Lyric, Sonic and his friends Tails, Knuckles and Amy encounter an ancient tomb sealed deep within an island, where they come across a powerful snake-like villain named Lyric. The group must put aside their differences and work together as a team to save the world from Lyric’s evil plan and his army of war mongering robots!
+They will race across ancient ruins, the depths of the ocean and even back in time… This may be their biggest adventure yet. Do you have what it takes to help Sonic and friends defeat the evil mastermind?</value>
+  </data>
+  <data name="Splatoon" xml:space="preserve">
+    <value>Splatter enemies and claim your turf as the ink-spewing, squid-like characters called Inklings in Nintendo's new third-person action shooter game for the Wii U console.
+Compete in four-on-four matches, in which the goal is to get your ink on as many places as possible and claim your turf, all while strategically submerging yourself in your team's colors and blasting your enemies. This is a colorful and chaotic online third-person action shooter – exclusively on Wii U.
+FEATURES:
+Fresh content
+New weapons, modes, maps, gear, and more have been added to Splatoon, with more rolling out through summer 2015. Plus, regularly scheduled Splatfest events let you choose a side and battle your way to victory with other players around the world!
+Online* team matchmaking:
+Create a squid squad with your friends in Squad Battle mode.
+Join up to seven friends in Private Battles—you choose the map and the rules.
+Get teamed up with other players for 4 vs. 4 matches in Turf War or Ranked Battle modes.
+Ramp up the intensity with Ranked Battle modes which include three rotating modes: Splat Zones, Tower Control, and Rainmaker
+Play to win and boost your player ranking or level, or get in-game currency to spend on gear upgrades.
+Think while you ink
+Strategy is everything. Defeat enemies to splatter them in an explosion of ink, covering more turf for your team. But choose wisely: Players who only go after the enemy might find their turf redecorated in their enemies' colors.
+Refill ink tanks, hide from opponents or move faster by turning into a squid and diving intoink with the tap of a button.
+Covering more territory with ink unlocks powered-up super weapons that can be used to attack rivals or cover more turf.
+More ways to play
+Select between multiple control options on the Wii U GamePad controller, including using gyroscopic controls to look around, allowing for better aiming and control.
+Hone your skills in Octo Valley, the single-player mode that will have you inking, splatting, and squidding through platforming puzzles as you take on the Octarian army.
+Battle a friend one-on-one at home in a balloon-splatting contest in Battle Dojo.</value>
+  </data>
+  <data name="StarFoxZero" xml:space="preserve">
+    <value>Fox, Falco, Peppy and Slippy save the Lylat system in this new deep space dogfighting adventure. Using the Wii U GamePad controller and the TV together creates a unique interface that allows players to experience the game with two different viewpoints within the Arwing – aim and shoot enemies in one direction while flying in another. This frees up the TV for a more cinematic flight experience. Then, pilot the Arwing with its new Walker transformation, along with the new Gyrowing and the Landmaster Tank, to traverse interplanetary terrain.
+Features:
+Fan favorite characters return with new and well-known dialogue from Fox McCloud, Slippy, Peppy, Falco and more, which can sound like they’re talking in your ear like a from a headset with clever sound technology.
+Players can intuitively pilot an Arwing by simply using both the right and left control sticks as a control stick to perform familiar flight maneuvers, such as the somersault, U-turn and a Barrel Roll.
+Replay the same exotic planets with other vehicles and extra missions can be selected on top of going through the story.
+Two different viewpoints, the traditional style of TV gameplay and the new unique cockpit view on the Wii U GamePad controller combines to create a unique interface to aim and shoot in one direction while flying in another. This frees up the TV for more cinematic moments in a brand-new all range mode.
+Pilot the new and improved Arwing with its new Walker transformation and take control of a new Drone type plane, the Gyrowing. The Landmaster Tank returns, equipped with a new, limited flight form.</value>
+  </data>
+  <data name="SuperMarioMaker" xml:space="preserve">
+    <value>The Mario experience of your dreams has arrived and is bursting with creativity... including yours! Play a near-limitless number of intensely creative Super Mario levels from players around the world. It’s easy enough to create your own levels with the Wii U GamePad controller that it may feel like you’re simply sketching out your ideas on paper, but you can now bring enemies and objects into a playable course in ways you could only dream of before. What was impossible in traditional Mario games is now impossibly fun, so let your imagination run wild!
+Bonus: All editions of Super Mario Maker come with a collectable book that features:
+Ideas from the Nintendo development team to inspire your creations
+Special codes that you can enter into the online manual to watch videos of creations from the development team
+Concept art and level designs from the original Super Mario Bros
+The book comes with all physical copies of the game. For digital purchases, check your Nintendo eShop receipt for instructions on how to request a copy. You can also download a free digital version of the book on the official microsite when the game launches. Offer only valid in US, Canada, and Mexico.
+Features
+Play a near-limitless number of Mario levels created by Nintendo and players around the world.
+Create your own Mario levels by using the Wii U GamePad controller touch screen to add enemies, blocks, pipes and more.
+Break the conventions of traditional Super Mario gameplay by blending enemies, traps and items into unexpected twists, like Piranha Plant-shooting cannons, power-up-tossing Lakitus, or even Hammer Bros. riding on Bowser while bouncing on trampolines.
+Touch control, instant editing and a robust online ranking and search system makes creating, playing and sharing a seamless process.
+Switch between four distinct themes, each with different art styles and features: Super Mario Bros., Super Mario Bros. 3, Super Mario World, and New Super Mario Bros. U.
+Transform into different characters at random with the new Mystery Mushroom item. Expand the roster of possible characters by completing 100 Mario Challenge mode or tapping compatible amiibo..
+Transform into different characters at random with the new Mystery Mushroom item. Expand the roster of possible characters by completing 100 Mario Challenge mode or tapping compatible amiibo.</value>
+  </data>
+  <data name="WiiFitU" xml:space="preserve">
+    <value>Wii Fit U reinvents fitness fun again with the Wii U GamePad controller, Wii Balance Board accessory, and the new Fit Meter**. Carry the Fit Meter accessory to track daily activity, then sync it to your Wii U to compare accomplishments online***. With over 70 activities, Wii Fit U makes fitness so fun it motivates you to get active and stay active!
+Shape up with a wide range of fun activities including Yoga, Strength exercises, Balance Games, Dance, Aerobic activities, and more.
+Whether at home or on the go, the all-new Fit Meter tracks your progress, from calories burned to steps taken - even changes in elevation.
+With the touch of a button, you can easily sync your Fit Meter data to compare your progress with friends or see how far you’ve gone in Walking Challenges, Altitude Challenges, and more.
+Enjoy new and unique dual-screen activities like Hosedown or Trampoline Target that take advantage of the Wii U GamePad controller and your TV.
+The Wii U GamePad offers both privacy and flexibility. By providing a second screen, it lets you perform activities while others watch TV, view personal progress on your own private screen, or even watch and adjust your form using the built-in camera.
+Create, join, and browse online Gym Communities to share profile info (e.g. achievements, high scores, favorite activities) to keep yourself, your friends, and your family motivated.
+Cheer on a friend or share parts of your Wii Fit U experience via Miiverse.
+Create your own personalized workout routine with Yoga, Strength exercises, and other activities or select from recommended routines based on your fitness goals.
+The new Dance activity allows you to choose from a variety of dance styles with varying difficulty levels.</value>
+  </data>
+  <data name="Wonderful101" xml:space="preserve">
+    <value>As Wonder Red, leader of the Wonderful 100, you will unite your band of Wonderful Ones to morph into powerful transformations such as a fist, sword, glider, gun, and more to battle invaders throughout Blossom City and across the world. The Wonderful 100—and YOU—are the city's best weapon.
+Unite your horde of heroes and morph into powerful weapons to crush the invaders, or synthesize into bridges, chains, and other objects that help you move through the world's different environments.
+Explore each stage to find helpless citizens and empower them by enlisting them to join your army of heroes. The more heroes you gather, the more powerful your Unite Morphs will become.
+Clobber bad guys with fast-paced, engaging combat. String together combos, dynamically switch between Unite Morphs, evade and defend against alien attacks, and rack up points to earn the best scores and rewards.
+It's up to you and your team of superheroes to take on colossal robots and alien masterminds bent on obliterating everything in their path. But don't worry—you're not alone!</value>
+  </data>
+  <data name="XenobladeChroniclesX" xml:space="preserve">
+    <value>The next massive sci-fi role-playing game from Monolith Soft, the creators of Baten Kaitos and Xenoblade Chronicles, comes exclusively to Wii U. A terrible intergalactic war leaves just a handful of Earth survivors trying to live in a beautiful yet hostile environment. Players engage in battles against powerful creatures of all forms and sizes using the deep battle system that builds on the triumphs of Xenoblade Chronicles for Wii.
+FEATURES:
+Riding and controlling a weaponized mech, players can explore every inch of the massive open world displayed in gorgeous high-definition graphics. The world is filled with strange and imaginative creatures, from small bugs to giant dinosaurs.
+As characters improve in different classes, they will learn new combat and defensive skills, or Arts. Players can customize the Arts palette as their characters learn new Arts. All Arts have a “recast" time – once cast, the player must wait out a “cooldown" period before that Art can be used again.
+Players can customize everything about the main character's appearance, including gender, shapes, height, skin color, voice and tattoos.</value>
+  </data>
+  <data name="YoshisWW" xml:space="preserve">
+    <value>Set off with a friend* through a wild, woolly world in this grand Yoshi™ adventure! A treasure trove of clever handicraft stages are ready for you to explore. Unravel their secrets and color your world with a spectrum of yarn balls to knit new paths and get every last collectible.
+Knitting yarn, patchwork, and other handicraft materials combine into a whimsical and crafty backdrop for our knit Yoshi to explore. Instead of eggs, this time Yoshi tosses yarn balls that he can use to clear blocked paths, tangle-up enemies, or even knit together platforms and warp pipes. Yoshi can also tug at stray yarn to unravel walls and reveal hard-to-reach areas filled with hidden collectibles. Tackle challenges in local 2-Player co-op by partnering up with a friend. Gobble 'em up and spit 'em out to reach new heights or take out craftwork creepers like paratroopas, piranha plants and shy guys! It's time to get crafty.
+Toss yarn balls to knit together background elements or tie-up enemies
+Unravel puzzles and walls to discover hidden areas and collectables
+Explore each crafty stage to discover new surprises—there's no time limit
+Discover and explore new areas in 2-player cooperative multiplayer (additional accessories required for multiplayer mode; sold separately)
+Mellow Mode gives Yoshi™ wings so everyone can enjoy</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="affordable_space_adventures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\affordable space adventures.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amiibo_tap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\amiibo-tap.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animal_crossing_amiibo_festival" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animal crossing amiibo festival.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armillo_cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armillo cover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bayonetta_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bayonetta 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blocky_bot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blocky bot.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Box_NA___Mario_Kart_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Box_NA_-_Mario_Kart_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captain_toad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captain toad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cube_life" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cube life.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donkey_kong_country_tropical_freeze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\donkey kong country tropical freeze.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dr__luigi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dr. luigi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="family_party_30_games" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\family party 30 games.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FAST_Racing_Neo_Key_Artwork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAST-Racing-Neo-Key-Artwork.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fatal_frame_maiden_of_black_water" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fatal frame maiden of black water.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GameWario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GameWario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_party_champions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game party champions.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Genei_Ibun_Roku_FE_Feature_Scans_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Genei-Ibun-Roku-FE-Feature-Scans-15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kirby_and_the_rainbow_curse_cover_800" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kirby-and-the-rainbow-curse-cover-800.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lego_undercover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lego undercover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mario_party_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mario party 10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mario_tennis_ultra_smash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mario tennis ultra smash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New_Super_Luigi_U__NA_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New_Super_Luigi_U_(NA).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nintendo_Land" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nintendo Land.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nintendo_Wii_U_Super_Mario_3D_World_Front_Cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nintendo Wii U Super Mario 3D World Front Cover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pikmin_3_Nintendo_America" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pikmin-3-Nintendo-America.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pokemon_rumble_u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pokemon rumble u.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pushmo_Screen_Shot_2014_06_04_09_29_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pushmo-Screen-Shot-2014-06-04-09-29-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rabbids_landwiiuyar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rabbids_landwiiuyar1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="runbow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\runbow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SB_Rise_of_Lyric_NA_Box_Art" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SB_Rise_of_Lyric_NA_Box_Art.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sing_party" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sing party.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="splatoon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\splatoon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_fox_zero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star fox zero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="super_marior_bros_u" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\super marior bros u.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="super_mario_maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\super mario maker.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Wind_Waker_HD_Boxart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The-Wind-Waker-HD-Boxart.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WiiFitUBoxart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WiiFitUBoxart.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WiiPartyU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WiiPartyU.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wii_u_zelda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wii-u-zelda.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wonderful_101_us_wiiu_esrb_rendjpg_e969fd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wonderful-101-us-wiiu-esrb-rendjpg-e969fd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xenoblade_chronicles_x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xenoblade chronicles x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yoshi_s_woolly_world" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yoshi's woolly world.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Just_Dance_Disney_Party_2_cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Just_Dance_Disney_Party_2_cover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Legend_of_Zelda_Twilight_Princess_Game_Cover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_142666_L_LO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\142666-L-LO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

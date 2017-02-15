@@ -1,0 +1,8 @@
+E:\CPSC362_GameRating\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
+E:\CPSC362_GameRating\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+E:\CPSC362_GameRating\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+E:\CPSC362_GameRating\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+E:\CPSC362_GameRating\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+E:\CPSC362_GameRating\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\CPSC362_GameRating\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+E:\CPSC362_GameRating\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb
